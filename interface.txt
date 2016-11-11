@@ -1,0 +1,24 @@
+#interfaces(5) file used by ifup(8) and ifdown(8)
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+        address ....
+        netmask 255.255.0.0
+        gateway ....
+        dns-nameserver 8.8.8.8
+
+
+auto eth1
+iface eth1 inet static
+        address 0.0.0.0
+        netmask 0.0.0.0
+
+
+auto br-ex
+iface br-ex inet static
+        address ....
+        netmask 255.255.0.0
+        gateway ....
+        dns-nameserver 8.8.8.8

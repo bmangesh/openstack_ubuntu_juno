@@ -1,2 +1,2 @@
-# openstack_ubuntu_juno
-  Juno -  Juno -  Juno -  Juno -  Juno -  Juno -  Juno -  OpenStack Installation on Ubuntu
+# openstack_ubuntu
+OpenStack Kilo  Scripted Install with Neutron on MultiNode Ubuntu
